@@ -9,6 +9,7 @@ def AnalisisOwasp(projectGitName){
         -t ${env.dominio} \
         -r ${projectGitName}Owasp.html \
         -I \
-        -quickprogress
+        -s \
+        -l WARN
     """
 }
